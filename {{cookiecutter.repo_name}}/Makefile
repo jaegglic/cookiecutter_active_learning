@@ -28,7 +28,7 @@ clean:
 ## Set up python interpreter environment
 create_environment:
 	$(PYTHON_INTERPRETER) -m venv ./venv
-	@echo ">>> New virtualenv created. Activate with:\nsource /venv/bin/activate"
+	@echo ">>> New virtualenv created. Activate with:\nsource venv/bin/activate"
 
 ## Test python environment is setup correctly
 test_environment:
