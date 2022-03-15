@@ -11,8 +11,6 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── processed      <- The final, canonical data sets for modeling.
-    │   │   ├── labeled    <- The labeled data instances
-    │   │   └── unlabeled  <- The un-labeled data instances
     │   └── raw            <- The original, immutable data dump.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
