@@ -6,8 +6,8 @@ from dotenv import find_dotenv, load_dotenv
 
 
 @click.command()
-@click.argument('raw_filepath', type=click.Path(exists=True))
-@click.argument('unlabeled_filepath', type=click.Path())
+@click.argument('path_data_raw', type=click.Path(exists=True))
+@click.argument('path_data_processed', type=click.Path())
 def main(input_filepath, unlabeled_filepath):
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed/unlabeled/).
